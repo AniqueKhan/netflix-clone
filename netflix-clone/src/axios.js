@@ -5,5 +5,5 @@ import axios from "axios";
 const instance = axios.create({
   baseURL: "https://api.themoviedb.org/3",
 });
-
+// this instance can be renamed as there is export default
 export default instance;
